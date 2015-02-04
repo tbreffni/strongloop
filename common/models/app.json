@@ -1,0 +1,21 @@
+{
+  "name": "App",
+  "plural": "apps",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "properties": {
+    "AppId": {
+      "type": "number",
+      "required": true,
+      "id": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
